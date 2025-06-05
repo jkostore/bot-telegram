@@ -15,7 +15,7 @@ if 'RENDER' in os.environ:
 # ... باقي الكود ...
 
 # ===== تكوين الثوابت والإعدادات =====
-ADMIN_IDS = [5222039643, 1937595344]  # ضع هنا معرف المشرف الخاص بك
+ADMIN_IDS = [498562959, 1937595344]  # ضع هنا معرف المشرف الخاص بك
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 REPO_OWNER = "NR4U"
 REPO_NAME = "Bot-telegram"
@@ -279,7 +279,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ===== الدالة الرئيسية =====
 def main():
     """الدالة الرئيسية لتشغيل البوت"""
-    TOKEN = os.environ.get("BOT_TOKEN")
+    TOKEN = os.environ.get("6875823642:AAEMadbzHeYxQ-6MrThPKkmwgG2AouCydpI")
     application = Application.builder().token(TOKEN).build()
 
     # إضافة معالجات الأوامر
